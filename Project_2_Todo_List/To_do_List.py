@@ -1,6 +1,6 @@
 print("Hello welcome to To Do List App")
 
-# Todo List array
+# Todo List1 array
 todo = []
 
 
