@@ -13,6 +13,8 @@ question_dict = {
     9: {"question": "What is the chemical symbol for water?", "options": ["H2O", "O2", "CO2"], "answer": "H2O"}
 }
 
+
+# question fucntion
 def ask_question(score, questions_left):
     key = random.choice(questions_left)
     question_info = question_dict[key]

@@ -1,11 +1,14 @@
 import random
 
+# number guessing game function
 def number_guessing_game():
 
     print("Welcome to the Number Guessing Game!")
 
+    # random number generator
     secret_number = random.randint(1, 100)
 
+    #conditonal loop to run the code continuously
     while True:
         guess = input("Enter your guess: ")
 
